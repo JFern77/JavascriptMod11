@@ -25,6 +25,19 @@
         // Jason: an assignment for you: please use the code right above this
         // comment to create a function which multiply two numbers, those
         // numbers being the input of the function.
+
+
+    ////////////////////////////////////////////////////////////////////////////
+    ////////////////////////////////////////////////////////////////////////////
+        function PlayingWithArrays( )
+        {
+            var ar = new Array( );
+            for( var i = 0; i < 10; i++ )   {
+                ar[ i ] = i;
+            }
+            return ar;
+        }
+
     ////////////////////////////////////////////////////////////////////////////
     ////////////////////////////////////////////////////////////////////////////
     </script>
@@ -36,7 +49,15 @@
             document.write("<p>magicword</p>")
             var magicword = "magician";
             var m = magicword.length;
-            document.write("<p>the size of the string is" + m + ".</p>")
+            document.write("<p>the size of the string is" + m + ".</p>");
+
+            ar = PlayingWithArrays( );
+            // Jason, assignment 2 (for this framework): look at the function
+            // "PlayingWithArrays", and write another function which takes
+            // the array created by "PlayingWithArrays",
+            // and display each value of that array with a document.write
+            // statement. Hint: note that "PlayingWithArrays" makes use of a
+            // for loop.
         </script>
     </body>
 
